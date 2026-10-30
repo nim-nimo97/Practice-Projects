@@ -1,5 +1,3 @@
-
-/* General Styling */
 body {
     margin: 0;
     background-color: #f4f3c5;
@@ -7,20 +5,35 @@ body {
     color: #493629;
 }
 
-/* Navigation Bar */
+/* Header and Navigation Bar */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #71c4da;
-    padding: 10px 50px;
+    padding: 15px 50px;
 }
 
-.logo img {
-    width: 100px;
-    height: auto;
+/* Brand Name */
+.brandHeader {
+    color: #f4f3c5;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.brandHeader h1 {
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+.brandHeader p {
+    font-size: 13px;
+    color: #f4f3c5;
+    margin: 5px 0;
+}
+
+/* Navigation Links */
 .nav-links ul {
     display: flex;
     list-style: none;
@@ -41,6 +54,7 @@ nav {
     color: #F5D6A5;
 }
 
+
 /* Home Hero Section */
 .homeContainer {
     display: flex;
@@ -55,14 +69,15 @@ nav {
 }
 
 .homeText h2 {
-    font-size: 38px;
+    font-size: 40px;
     color: #593a29;
 }
 
 .homeText p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.8;
     text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .homePic {
@@ -87,7 +102,7 @@ nav {
 }
 
 .discountSection h2 {
-    color: #315B83;
+    color: #71c4da;
     font-size: 28px;
 }
 
@@ -103,7 +118,7 @@ nav {
 }
 
 .discountSection button {
-    background-color: #315B83;
+    background-color: #71c4da;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -113,7 +128,7 @@ nav {
 }
 
 .discountSection button:hover {
-    background-color: #203F5D;
+    background-color: #71c4da;
 }
 
 /* Cookie Bag Image */
@@ -129,33 +144,15 @@ nav {
 
 /* Footer */
 footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #315B83;
+    background-color: #71c4da;
     color: white;
-    padding: 25px;
     text-align: center;
-}
-
-footer h2 {
-    margin-bottom: 15px;
-}
-
-.social-icons a {
-    color: white;
-    font-size: 22px;
-    margin: 0 12px;
-    text-decoration: none;
-}
-
-.social-icons a:hover {
-    color: #F5D6A5;
+    padding: 15px;
 }
 
 footer p {
-    font-size: 14px;
-    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* product page */
 
@@ -167,12 +164,13 @@ footer p {
 
 .productIntro h2 {
     font-size: 35px;
-    color: #315B83;
+    color: #71c4da;
 }
 
 .productIntro p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Product Grid */
@@ -184,7 +182,7 @@ footer p {
 }
 
 .productCard {
-    background-color: #F1E3D2;
+    background-color: #71c4da;
     text-align: center;
     padding: 20px;
     border-radius: 15px;
@@ -199,17 +197,19 @@ footer p {
 }
 
 .productCard h3 {
-    color: #315B83;
-    font-size: 22px;
+    color: #f4f3c5;
+    font-size: 24px;
 }
 
 .productCard p {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .productCard h4 {
-    color: #315B83;
+    color: #f4f3c5;
     font-size: 19px;
 }
 
@@ -225,13 +225,14 @@ footer p {
 }
 
 .cookieCalculator h2 {
-    color: #315B83;
+    color: #71c4da;
     font-size: 28px;
 }
 
 .cookieCalculator p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .cookieCalculator input {
@@ -242,7 +243,7 @@ footer p {
 }
 
 .cookieCalculator button {
-    background-color: #315B83;
+    background-color: #71c4da;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -252,7 +253,7 @@ footer p {
 }
 
 .cookieCalculator button:hover {
-    background-color: #203F5D;
+    background-color: #71c4da;
 }
 /* contact page */
 
@@ -274,9 +275,10 @@ footer p {
 }
 
 .contactText p {
-    font-size: 17px;
+    font-size: 20px;
     line-height: 1.8;
     text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .contactPic1 {
