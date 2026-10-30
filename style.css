@@ -1,0 +1,159 @@
+
+/* General Styling */
+body {
+    margin: 0;
+    background-color: #f4f3c5;
+    font-family: Arial, sans-serif;
+    color: #493629;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #71c4da;
+    padding: 10px 50px;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.nav-links ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #F5D6A5;
+}
+
+/* Home Hero Section */
+.homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 70px;
+    gap: 40px;
+}
+
+.homeText {
+    width: 50%;
+}
+
+.homeText h2 {
+    font-size: 38px;
+    color: #593a29;
+}
+
+.homeText p {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.homePic {
+    width: 50%;
+}
+
+.homePic img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Discount Calculator */
+.discountSection {
+    width: 45%;
+    margin: 30px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #F1E3D2;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px #D5C4B2;
+}
+
+.discountSection h2 {
+    color: #315B83;
+    font-size: 28px;
+}
+
+.discountSection p {
+    font-size: 16px;
+}
+
+.discountSection input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #B8A28D;
+    border-radius: 5px;
+}
+
+.discountSection button {
+    background-color: #315B83;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.discountSection button:hover {
+    background-color: #203F5D;
+}
+
+/* Cookie Bag Image */
+.cookiepic1 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cookiepic1 img {
+    width: 250px;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #315B83;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 22px;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #F5D6A5;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 20px;
+}
