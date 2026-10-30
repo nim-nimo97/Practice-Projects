@@ -254,4 +254,68 @@ footer p {
 .cookieCalculator button:hover {
     background-color: #203F5D;
 }
+/* contact page */
 
+.contactContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 80px;
+    gap: 40px;
+}
+
+.contactText {
+    width: 50%;
+}
+
+.contactText h2 {
+    font-size: 38px;
+    color: #593a29;
+}
+
+.contactText p {
+    font-size: 17px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.contactPic1 {
+    width: 50%;
+}
+
+.contactPic1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Contact Information */
+.emailaddressSec {
+    text-align: center;
+    padding: 40px 100px;
+    margin: 20px 50px;
+    background-color: #F1E3D2;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px #D5C4B2;
+}
+
+.emailaddressSec h2 {
+    font-size: 30px;
+    color: #593a29;
+}
+
+.emailaddressSec p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Milo Dogi Image */
+.miloDogi {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.miloDogi img {
+    width: 200px;
+    height: auto;
+}
