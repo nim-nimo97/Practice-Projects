@@ -157,3 +157,101 @@ footer p {
     font-size: 14px;
     margin-top: 20px;
 }
+/* product page */
+
+/* Product Intro*/
+.productIntro {
+    text-align: center;
+    padding: 40px 100px;
+}
+
+.productIntro h2 {
+    font-size: 35px;
+    color: #315B83;
+}
+
+.productIntro p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* Product Grid */
+.productContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    padding: 30px 100px;
+}
+
+.productCard {
+    background-color: #F1E3D2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px #D5C4B2;
+}
+
+.productCard img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.productCard h3 {
+    color: #315B83;
+    font-size: 22px;
+}
+
+.productCard p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.productCard h4 {
+    color: #315B83;
+    font-size: 19px;
+}
+
+/* Cookie Calculator */
+.cookieCalculator {
+    width: 45%;
+    margin: 50px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #F1E3D2;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px #D5C4B2;
+}
+
+.cookieCalculator h2 {
+    color: #315B83;
+    font-size: 28px;
+}
+
+.cookieCalculator p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.cookieCalculator input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #B8A28D;
+    border-radius: 5px;
+}
+
+.cookieCalculator button {
+    background-color: #315B83;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.cookieCalculator button:hover {
+    background-color: #203F5D;
+}
+
